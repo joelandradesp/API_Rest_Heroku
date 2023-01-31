@@ -93,6 +93,38 @@ O Serializable gera um hash mantendo uma versão da classe.
 
 ![Serializable](/Imagens/serializable.jpg "Serializable")
 
+## Configurando o banco de dados
+
+Em resources tem um arquivo chamado application.properties:
+
+server.port=8084
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+
+### Banco local - Joel
+spring.datasource.url=jdbc:postgresql://localhost:5432/produtos-apirest
+spring.datasource.username=postgres
+spring.datasource.password=joel@2240
+spring.jpa.hibernate.ddl-auto=update 
+
+Essa última linha spring.jpa.hibernate.ddl-auto=update  fará que na inicialização da aplicação, que seja criado a tabela TB_Produtos.
+Eu criei no banco antes produtos-apirest (não sei se é necessário).
+
+## Postgres
+
+Posso utilizar o editor pgAdmin 4 ou o SQL Shell (psql).
+
+**SQL Shell:**
+
+![Serializable](/Imagens/SQL Shell.jpg "Serializable")
+
+**pgAdmin 4:**
+
+![Serializable](/Imagens/pgAdmin.jpg "Serializable")
+
+
+
+
+
 
 
 

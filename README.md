@@ -170,6 +170,11 @@ O Spring Boot se coloco findbyid ele pede para colocar Optional. E antes era fin
 
 ![DeleteMapping](/Imagens/DeleteMapping.jpg "DeleteMapping")
 
+* **PutMapping:** 
+
+![PutMapping](/Imagens/PutMapping.jpg "PutMapping")
+
+
 
 
 

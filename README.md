@@ -148,13 +148,13 @@ insert into tb_produto(id, nome,quantidade, valor) values (nextval('tb_produto_s
 
 * GET by ID - http://localhost:8084/api/produtos/1
 
-![GetProdutosporid](/Imagens/GetProdutosporid.jpg "GetProdutosporid")
+![GetProdutosporid](/Imagens/GetProdutoporid.jpg "GetProdutosporid")
 
 Aqui há um ponto importante: 
 
 O Spring Boot se coloco findbyid ele pede para colocar Optional. E antes era findOne que foi depreciado.
 
-![GetProdutosporid](/Imagens/GetProdutosporid.jpg "GetProdutosporid").jpg "Findbyid")
+![Findbyid](/Imagens/Findbyid.jpg "Findbyid").jpg "Findbyid")
 
 
 

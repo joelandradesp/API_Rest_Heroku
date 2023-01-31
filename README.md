@@ -91,7 +91,7 @@ public class Produto implements Serializable - o implements Serializable gera um
 
 O Serializable gera um hash mantendo uma versão da classe.
 
-![Serializable](/Imagens/serializable.png "Serializable
+![Serializable](/Imagens/serializable.jpg"Serializable
 
 
 

@@ -154,7 +154,7 @@ Aqui há um ponto importante:
 
 O Spring Boot se coloco findbyid ele pede para colocar Optional. E antes era findOne que foi depreciado.
 
-![Findbyid](/Imagens/Findbyid.jpg "Findbyid").jpg "Findbyid")
+![Findbyid](/Imagens/Findbyid.jpg "Findbyid")
 
 
 

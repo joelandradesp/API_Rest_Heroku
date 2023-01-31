@@ -148,11 +148,11 @@ SELECT last_value FROM tb_produto_seq;
 
 ## Postman - Endpoints
 
-* GET - http://localhost:8084/api/produtos
+* **GetMapping:** - http://localhost:8084/api/produtos
 
 ![GetProdutos](/Imagens/GetProdutos.jpg "GetProdutos")
 
-* GET by ID - http://localhost:8084/api/produtos/1
+* **GetMapping -  by ID:** - http://localhost:8084/api/produtos/1
 
 ![GetProdutosporid](/Imagens/GetProdutoporid.jpg "GetProdutosporid")
 
@@ -162,9 +162,13 @@ O Spring Boot se coloco findbyid ele pede para colocar Optional. E antes era fin
 
 ![Findbyid](/Imagens/Findbyid.jpg "Findbyid")
 
-* PostMapping
+* **PostMapping:**
 
 ![PostMapping](/Imagens/PostMapping.jpg "PostMapping")
+
+* **DeleteMapping:**
+
+![DeleteMapping](/Imagens/DeleteMapping.jpg "DeleteMapping")
 
 
 

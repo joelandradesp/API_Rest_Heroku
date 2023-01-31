@@ -115,12 +115,46 @@ Posso utilizar o editor pgAdmin 4 ou o SQL Shell (psql).
 
 **SQL Shell:**
 
-![Serializable](/Imagens/SQL_Shell.jpg "Serializable")
+![SQL_Shell](/Imagens/SQL_Shell.jpg "SQL_Shell")
 
 **pgAdmin 4:**
 
-![Serializable](/Imagens/pgAdmin.jpg "Serializable")
+![pgAdmin](/Imagens/pgAdmin.jpg "pgAdmin")
 
+### Comandos do Postgres
+
+-- alter sequence tb_produto_seq increment by 1;
+
+--select * from tb_produto;
+--select nextval('tb_produto_seq')
+--ALTER SEQUENCE tb_produto_seq RESTART;
+-- ALTER SEQUENCE tb_produto_seq RESTART WITH 1;
+--UPDATE t SET idcolumn=nextval('tb_produto_seq');
+--truncate table tb_produto;
+-- ALTER SEQUENCE tb_produto_seq RESTART WITH 1
+insert into tb_produto(id, nome,quantidade, valor) values (nextval('tb_produto_seq'),'samsung s8',1.00,2599.00);
+insert into tb_produto(id, nome,quantidade, valor) values (nextval('tb_produto_seq'),'notebook lenovo ideapad320',2.00,3500.00);
+insert into tb_produto(id, nome,quantidade, valor) values (nextval('tb_produto_seq'),'Mac Book',1.00,8000.00);
+insert into tb_produto(id, nome,quantidade, valor) values (nextval('tb_produto_seq'),'Iphone 8',2.00,4500.00);
+insert into tb_produto(id, nome,quantidade, valor) values (nextval('tb_produto_seq'),'notebook lenovo ideapad320',1.00,1500.00);
+insert into tb_produto(id, nome,quantidade, valor) values (nextval('tb_produto_seq'),'SmartTV LG 50',1.00,3550.00);
+insert into tb_produto(id, nome,quantidade, valor) values (nextval('tb_produto_seq'),'SmartTV LG 65',1.00,4990.00);
+
+## Postman - Endpoints
+
+* GET - http://localhost:8084/api/produtos
+
+![GetProdutos](/Imagens/GetProdutos.jpg "GetProdutos")
+
+* GET by ID - http://localhost:8084/api/produtos/1
+
+![GetProdutosporid](/Imagens/GetProdutosporid.jpg "GetProdutosporid")
+
+Aqui há um ponto importante: 
+
+O Spring Boot se coloco findbyid ele pede para colocar Optional. E antes era findOne que foi depreciado.
+
+![GetProdutosporid](/Imagens/GetProdutosporid.jpg "GetProdutosporid").jpg "Findbyid")
 
 
 

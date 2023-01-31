@@ -115,7 +115,7 @@ Posso utilizar o editor pgAdmin 4 ou o SQL Shell (psql).
 
 **SQL Shell:**
 
-![Serializable](/Imagens/SQL Shell.jpg "Serializable")
+![Serializable](/Imagens/SQL_Shell.jpg "Serializable")
 
 **pgAdmin 4:**
 

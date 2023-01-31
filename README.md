@@ -3,6 +3,16 @@
 Curso Michelli Brito - API REST com Spring Boot, Swagger, Postgres Remoto (Heroku)
 Vídeos publicados em: 14 de agosto de 2018.
 
+## Tecnologias utilizadas no Projeto
+
+Java 8 (Usado no Curso) eu vou utilizar o Java 17.
+Eclipse IDE for Java EE Developers Oxygem M2 64 bits (Usado no curso) eu uso o STS - Spring Tool Suite.
+Spring Boot 2.0.4 no curso, eu vou utilizar o Spring Boot 3.0.2
+
+## Início
+
+Spring Initializr - https://start.spring.io
+
 ## Heroku agora é paga
 
 Surgiu um comunicado em 25 de Agosto de 2022 que a Heroku vai acabar com os planos gratuítos nos próximos meses. 
@@ -33,6 +43,59 @@ O que estou vendo ao pesquisar que o serviço precisa ter recursos de API, Ambie
 E pelo que pesquisei, não há suporte a Ambiente de Desenvolvimento Integrado nos sites encontrados, exceto Heroku.
 
 Neste site temos os comparativos de alguns sites e nuvens: https://www.capterra.com.br/alternatives/158191/heroku
+
+## MongoDB na Nuvem - MongoLab
+
+MongoLab - https://mlab.com/ - MongoDB na Nuvem.
+Login: https://account.mongodb.com/account/login
+Joel@2240
+crudapi - joelguarulhos  
+senha - joel2240
+Server: crudapi.gnicsu3.mongodb.net
+Replica Set Name:atlas-25t4rl-shard-0
+
+mongodb+srv://joelguarulhos:joel2240@crudapi.gnicsu3.mongodb.net/?retryWrites=true&w=majority
+
+
+Replica Set Name: atlas-25t4rl-shard-0
+SRV Service Name (opcional): mongodb
+Connection Type: DNS Seedlist (mongo = srv connections)
+User Name: joelguarulhos
+Password: joel2240
+Authentication DB: admin
+mongodb-driver-core-4.8.2]
+
+mongodb+srv://joelguarulhos:<password>@crudapi.gnicsu3.mongodb.net/?retryWrites=true&w=majority
+mongodb+srv://joelguarulhos:<password>@crudapi.gnicsu3.mongodb.net/?retryWrites=true&w=majorityprivate String host;
+
+private int port = DBPort.PORT;
+
+private String uri = "mongodb://localhost/test";
+
+private String database;
+
+private String gridFsDatabase;
+
+private String username;
+
+private char[] password;
+
+## Model
+
+* @Entity - Informa que é uma Entidade para o Spring Boot
+* @Table - Informa o nome da Tabela
+* @Id - Obrigatório
+* @GeneratedValue(strategy=GenarationType.AUTO) - AutoIncremento na Tabela.
+
+public class Produto implements Serializable - o implements Serializable gera um long
+
+O Serializable gera um hash mantendo uma versão da classe.
+
+![Serializable](/Imagens/serializable.png "Serializable
+
+
+
+
 
 
 

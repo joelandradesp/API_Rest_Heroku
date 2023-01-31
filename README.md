@@ -140,6 +140,12 @@ insert into tb_produto(id, nome,quantidade, valor) values (nextval('tb_produto_s
 insert into tb_produto(id, nome,quantidade, valor) values (nextval('tb_produto_seq'),'SmartTV LG 50',1.00,3550.00);
 insert into tb_produto(id, nome,quantidade, valor) values (nextval('tb_produto_seq'),'SmartTV LG 65',1.00,4990.00);
 
+--select currval('tb_produto_seq')
+
+SELECT last_value FROM tb_produto_seq;
+
+--select setval('tb_produto_seq',7)
+
 ## Postman - Endpoints
 
 * GET - http://localhost:8084/api/produtos
@@ -155,6 +161,10 @@ Aqui há um ponto importante:
 O Spring Boot se coloco findbyid ele pede para colocar Optional. E antes era findOne que foi depreciado.
 
 ![Findbyid](/Imagens/Findbyid.jpg "Findbyid")
+
+* PostMapping
+
+![PostMapping](/Imagens/PostMapping.jpg "PostMapping")
 
 
 

@@ -12,7 +12,7 @@
 	<artifactId>apirest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>apirest</name>
-	<description>Projeto Spring Boot Rest - Michelli Brito com Heroku e Swagger.</description>
+	<description>Projeto Spring Boot Rest - com Swagger.</description>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
